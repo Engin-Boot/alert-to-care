@@ -1,11 +1,18 @@
 # Alert to Care
 
+This project implements a service that receives measurements from devices that monitor patients.
+It is used in the context of providing care in an ICU. 
+
+It has two segments:
+
+1. The API, which is consumed by both GUI and non-GUI clients.
+GUI-clients are for standalone use of this product.
+Non-GUI clients are other systems that need to integrate with this product.
+1. The GUI, which is one client of the API
+
 ## [Segment 1] Web API
 
-This project implements a service that receives measurements from devices that monitor patients.
-It is used in the context of providing care in an ICU.
-
-It offers the following APIs:
+The product offers the following APIs:
 
 ### User-story: Configuration
 
